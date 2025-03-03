@@ -2,7 +2,7 @@
 
 Simple tracker spending with API integration by using Android Composable and Kotlin Coroutines.
 Methodology I have used is Clean Architecture and Domain Driven Design for RoomDatabase and API integration. 
-Application is running Koin for dependency injection and Retrofit for API calls(it can be improved by replacing the Retrofit extantions with Ktor)
+Application is running Koin for dependency injection and Retrofit for API calls(it can be improved by replacing the Retrofit extensions with Ktor)
 Design patterns MVI and MVVM for UI management.
 Here is the API I have used "https://pixabay.com"
 
