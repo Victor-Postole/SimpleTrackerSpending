@@ -17,6 +17,7 @@ converterGson = "2.9.0"
 coilCompose = "2.6.0"
 mockitoCore = "3.11.2"
 mockitoInline = "3.11.2"
+mockitoKotlin = "5.2.1"
 mockk = "1.12.0"
 mockkMockk = "1.13.5"
 mockkVersion = "1.13.2"
@@ -47,6 +48,8 @@ koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koin"
 koin-androidx-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koin" }
 
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test" }
+kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit" }
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
 
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -67,6 +70,7 @@ androidx-media3-common-ktx = { group = "androidx.media3", name = "media3-common-
 
 mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockitoCore" }
 mockito-inline = { module = "org.mockito:mockito-inline", version.ref = "mockitoInline" }
+mockito-kotlin = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockitoKotlin" }
 mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
 mockk-v1132 = { module = "io.mockk:mockk", version.ref = "mockkVersion" }
 mockk-v1135 = { module = "io.mockk:mockk", version.ref = "mockkMockk" }

@@ -7,4 +7,5 @@ sealed interface SpendingDetailsActions {
     data class UpdateKilograms(val newKilograms : Double): SpendingDetailsActions
     data class UpdateQuantity(val newQuantity : Double): SpendingDetailsActions
     data object SaveSpending: SpendingDetailsActions
+
 }

@@ -90,6 +90,12 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+
+    //Testing
+    testImplementation(libs.kotlin.test)
+    testImplementation(libs.kotlin.test.junit)
+    testImplementation(libs.mockito.kotlin)
+
     // Navigation and Serialization
     implementation(libs.androidx.navigation.compose)
     implementation(libs.kotlinx.serialization.json)
@@ -108,4 +114,7 @@ dependencies {
 
     // Image Loading
     implementation(libs.coil.compose)
+
+
+
 }
